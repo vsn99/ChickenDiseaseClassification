@@ -1,6 +1,6 @@
 from chickenDiseaseClassifier.constants import *
 from chickenDiseaseClassifier.utils.common import read_yaml, create_directories
-from chickenDiseaseClassifier.entity import DataIngestionConfig
+from chickenDiseaseClassifier.entity.config_entity import DataIngestionConfig
 
 class ConfigurationManager:
     def __init__(
