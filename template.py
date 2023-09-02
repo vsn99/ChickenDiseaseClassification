@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s')
+logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
 
 project_name = "chickenDiseaseClassifier"
 
@@ -20,7 +20,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
+    "research/trials.ipynb",
+    "templates/index.html"
 ]
 
 
